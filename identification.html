@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RedBerry</title>
+
+    <link rel="stylesheet" href="assets/style/style.css">
+
+</head>
+<body>
+
+    <div id="identification_container">
+
+        <div class="questionnaire_header">
+            <img class="logo header_img" src="assets/img/logo/Group.png" alt="logo">
+
+
+            <img class="header_img" src="assets/img/page_number/1.png" alt="1/4">
+        </div>
+
+
+        <div class="identification_content">
+            <div class="row">
+                <div class="identification_form_content">
+                    <form class="identification_form" action="questionnaire.html" method="post">
+                        <div class="form-group">
+                            <label for="name">სახელი*</label>
+                            <input type="text" id="name">
+                            <div>
+                                <small class="identification_error identification_error_name"></small>
+                            </div>
+
+                        </div>
+
+                        <div class="form-group">
+                            <label for="last-name">გვარი*</label>
+                            <input type="text" id="last-name">
+                            <div>
+                                <small class="identification_error identification_error_last-name"></small>
+                            </div>
+
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">მეილი*</label>
+                            <input type="email" id="email">
+                            <div>
+                                <small class="identification_error identification_error_email"></small>
+                            </div>
+
+                        </div>
+                    </form>
+
+
+
+                    <div class="identification_warning">
+                        <p>
+                            *-ით მონიშნული ველების შევსება
+                            აუცილებელია
+                        </p>
+                    </div>
+                </div>
+
+                <div class="identification_img_content">
+                    <img src="assets/img/indentification/mainIncognito.png" class="main_logo_inc" alt="">
+                    <img class="identification_img"  src="assets/img/indentification/scan2.png" alt="">
+                </div>
+                
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <div class="navigation_container">
+        <div class="navigation">
+
+            <div></div>
+
+            <div class="btn-next invalid">
+                <button type="submit" class="invalid" id="submit_form" >></button>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <script src="assets/js/identification.js"></script>
+</body>
+</html>
