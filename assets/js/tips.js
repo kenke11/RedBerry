@@ -31,6 +31,14 @@ let onlineMeetingValid = false,
     work_from_the_officeValid = false;
 
 
+var myReq = new Request('thanks.html');
+
+console.log(myReq.url)
+
+let link = myReq.url
+
+form.action = link
+
 function tipsOnlineMeeting () {
 
     twice_a_week.addEventListener('change', () => {

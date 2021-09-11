@@ -15,6 +15,14 @@ let emailValid = false
 let nameValid = false
 
 
+var myReq = new Request('questionnaire.html');
+
+console.log(myReq.url)
+
+let link = myReq.url
+
+form.action = link
+
 function inpValue() {
     if (sessionStorage.getItem('name') &&
         sessionStorage.getItem('last_name') &&
