@@ -40,13 +40,7 @@ let qualityAntibodyValid = false;
 let covidDateValid = false;
 
 
-var myReq = new Request('vaccination.html');
 
-console.log(myReq.url)
-
-let link = myReq.url
-
-form.action = link
 
 function questInpValue(){
 

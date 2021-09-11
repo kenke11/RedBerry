@@ -35,13 +35,6 @@ let vaccinateStage;
 
 let whatYouWaiting;
 
-var myReq = new Request('tips.html');
-
-console.log(myReq.url)
-
-let link = myReq.url
-
-form.action = link
 
 function vaccinateInpValue() {
 
